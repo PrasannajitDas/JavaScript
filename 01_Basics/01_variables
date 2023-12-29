@@ -1,0 +1,14 @@
+const accountId=103//constatnt, can't be changed
+let accountEmail="mikul@gmail.com"
+var accountPW="12345"//prefer not to use bcz of issue in block scope and functional scope
+accountCity="Bcpur"  //possible, but not recommended
+let accountStatus
+
+//accountId=2 not allowed
+
+accountEmail="Das@gmail.com"
+accountPW="124"
+accountCity="Bangalore"
+
+console.log(accountId);
+console.table([accountEmail, accountId,accountPW, accountCity,accountStatus])
